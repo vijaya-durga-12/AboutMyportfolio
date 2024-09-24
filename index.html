@@ -7,6 +7,8 @@
     <title>VijayaDurga-Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
 
@@ -17,13 +19,18 @@
         <header>
             <nav class="navbar navbar-expand-sm">
                 <a class="navbar-brand" href="#">VijayaDurga-Portfolio</a>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
@@ -42,10 +49,10 @@
                     user-friendly web applications that leave a lasting impression.</p>
                 <div class="social-links">
                     <a href="https://github.com/vijaya-durga-12" target="_blank">
-                        <button class="btn"><i class="fab fa-github"></i> </button>
+                        <button class="btn "><i class="fab fa-github"></i> </button>
                     </a>
                     <a href="https://www.linkedin.com/in/vijaya-durga-arepalli" target="_blank">
-                        <button class="btn"><i class="fab fa-linkedin"></i> </button>
+                        <button class="btn "><i class="fab fa-linkedin"></i> </button>
                     </a>
                 </div>
                 <a href="https://drive.google.com/file/d/10G12eXzipFgIdYWKFBzuT6lRSdSb1i6a/view?usp=drive_link"
@@ -167,7 +174,7 @@
 
     <script>
         // Array of text values to display
-        const roles = ["Front-End Developer....", "React Developer....", "JavaScript Enthusiast....", "UI/UX Designer...."];
+        const roles = ["Front-End Developer....", "React Developer....", "JavaScript Enthusiast...."];
         
         // Select the element to display dynamic text
         const dynamicRoleElement = document.getElementById("dynamic-role");
@@ -183,8 +190,6 @@
         }, 3000);  // 3 seconds interval
     </script>
     
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
