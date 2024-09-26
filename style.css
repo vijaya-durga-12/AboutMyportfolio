@@ -18,13 +18,13 @@ h3 {
 }
 
 #dynamic-role {
-    color: #0FFCBE;
+    color: #111;
     transition: all 0.3s ease;
 }
 
 /* Navbar Styles */
 .navbar {
-    background-color: #1F2833;
+    background-color: #111;
     padding: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -81,7 +81,7 @@ h3 {
 
 /* About Section */
 .about-section, .skills-section, .contact-section, .project-section {
-    background: linear-gradient(135deg, #1F2833, #1F2833);
+    background: linear-gradient(135deg, #111, #111);
     padding: 50px 0; /* Add more padding for spacious look */
     color: white;
 }
@@ -134,13 +134,13 @@ h3 {
 }
 
 .skills-section .btn {
-    background-color: #1F2833;
+    background-color: #111;
     color: #fdf5fa;
     margin-top: 1.5rem;
 }
 
 .skills-section .btn:hover {
-    background-color: #1F2833;
+    background-color: #111;
     color: #fff;
     transform: translateY(-10px) scale(1.05); /* Lift and scale on hover */
     box-shadow: 0 10px 20px #295780;
