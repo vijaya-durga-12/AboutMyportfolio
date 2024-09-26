@@ -24,7 +24,7 @@ h3 {
 
 /* Navbar Styles */
 .navbar {
-    background-color: #106EBE;
+    background-color: #1F2833;
     padding: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -81,7 +81,7 @@ h3 {
 
 /* About Section */
 .about-section, .skills-section, .contact-section, .project-section {
-    background: linear-gradient(135deg, #106EBE, #106EBE);
+    background: linear-gradient(135deg, #1F2833, #1F2833);
     padding: 50px 0; /* Add more padding for spacious look */
     color: white;
 }
@@ -134,13 +134,13 @@ h3 {
 }
 
 .skills-section .btn {
-    background-color: #106EBE;
+    background-color: #1F2833;
     color: #fdf5fa;
     margin-top: 1.5rem;
 }
 
 .skills-section .btn:hover {
-    background-color: #106EBE;
+    background-color: #1F2833;
     color: #fff;
     transform: translateY(-10px) scale(1.05); /* Lift and scale on hover */
     box-shadow: 0 10px 20px #295780;
@@ -239,7 +239,7 @@ img.img-fluid, video.img-fluid {
     border: none;
     font-size: 1rem; /* Increase icon size */
     margin: 0 2px;
-    color: #106EBE;
+    color: #1F2833;
 }
 
 .social-links .btn:hover {
@@ -247,17 +247,7 @@ img.img-fluid, video.img-fluid {
     transform: translateY(-10px) scale(1.05); /* Lift and scale on hover */
     box-shadow: 0 10px 20px #0FFCBE;
 }
-.resume-btn {
-    color: blue; /* Ensure the text color is blue */
-    font-weight: bold; /* Make the text bold if needed */
-    background-color: #0FFCBE; /* Optional: Set background color */
-}
 
-.resume-btn:hover {
-    color: #0056b3; /* Darker blue on hover */
-    background-color: #0FFCBE; /* Background color remains */
-    box-shadow: 0 4px 8px rgba(94, 134, 177, 0.5); /* Optional hover effect */
-}
 
 
 /* Responsive Project Section */
