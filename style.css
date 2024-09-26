@@ -1,7 +1,20 @@
 /* General Styles */
-html {
-    scroll-behavior: smooth;
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #111; 
+    color: #fff;
+    border: 0; 
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; 
 }
+
+* {
+    
+    box-sizing: border-box; 
+}
+
 
 h2 {
     font-size: 2.5rem;
@@ -14,11 +27,13 @@ h3 {
 }
 
 .container-fluid {
-    padding: 2rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 #dynamic-role {
-    color: #111;
+    color: #14ecfc;
     transition: all 0.3s ease;
 }
 
@@ -26,6 +41,7 @@ h3 {
 .navbar {
     background-color: #111;
     padding: 1rem;
+    width:"100%";
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,7 +58,7 @@ h3 {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #0FFCBE;
+    color: #14ecfc;
 }
 
 .navbar-toggler {
@@ -78,19 +94,76 @@ h3 {
     top: 8px;
 }
 
+.home-section {
+    background: linear-gradient(135deg, #111, #111);
+    color: white;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.home-section h3 {
+    font-size: 2rem;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.home-section p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.home-section .btn{
+    background-color: #14ecfc;
+    border: none;
+    font-size: 1rem; 
+    margin: 0 2px;
+    color: #111;
+}
+
+.social-links .btn {
+    background-color: #14ecfc;
+    border: none;
+    font-size: 1rem; 
+    color: #111;
+    margin-bottom: 1rem;
+
+}
+
+.social-links .btn:hover {
+    color: #111;
+    transform: translateY(-10px) scale(1.05); /* Lift and scale on hover */
+    box-shadow: 0 10px 20px #14ecfc;
+}
+
+.resume-btn {
+    background-color: #14ecfc;
+    color: #78f1fa;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    
+    font-size: 1rem;
+}
+
+.resume-btn:hover {
+    background-color: #14ecfc;
+    box-shadow: 0 10px 20px #6fe2eb;
+}
 
 /* About Section */
 .about-section, .skills-section, .contact-section, .project-section {
     background: linear-gradient(135deg, #111, #111);
-    padding: 50px 0; /* Add more padding for spacious look */
-    color: white;
+    width: 100%; /* Ensure full width */
+    padding: 50px 0;
+    margin: 0; /* No margin */
+    border: none; /* Add more padding for spacious look */
+    color: #111;
 }
 
 .about-section img {
     border-radius: 50%;
-    box-shadow: 0 2px 4px #0FFCBE;
+    box-shadow: 0 2px 4px #14ecfc;
 }
-
 
 .about-section h2 {
     color: #fff;
@@ -102,17 +175,16 @@ h3 {
     color: #fff;
 }
 
-
 .about-section .btn {
-    background-color: #0FFCBE;
-    color: #f3dae8;
+    background-color: #14ecfc;
+    color: #fff;
     margin-top: 1.5rem;
 }
 
 .about-section .btn:hover {
-    background-color: #0FFCBE;
-    color: #f3dae8;
-    box-shadow: 0 4px 8px #78cfb7;
+    background-color: #14ecfc;
+    color: #fff;
+    box-shadow: 0 4px 8px #68cfd6;
 }
 
 /* Skills Section */
@@ -143,11 +215,11 @@ h3 {
     background-color: #111;
     color: #fff;
     transform: translateY(-10px) scale(1.05); /* Lift and scale on hover */
-    box-shadow: 0 10px 20px #295780;
+    box-shadow: 0 10px 20px #6edfe7;
 }
 
 .skills-card {
-    background-color: #0FFCBE; /* Light background */
+    background-color: #14ecfc; /* Light background */
     border-radius: 10px; /* Rounded corners */
     padding: 2rem; /* Padding inside the card */
     min-height: 250px;
@@ -155,7 +227,7 @@ h3 {
 
 .skills-card:hover, .project-section img:hover, .project-section video:hover {
     transform: translateY(-10px) scale(1.05); /* Lift and scale on hover */
-    box-shadow: 0 10px 10px #78cfb7; /* Larger shadow */
+    box-shadow: 0 10px 10px #14ecfc; /* Larger shadow */
 }
 
 /* Contact Section */
@@ -167,7 +239,7 @@ h3 {
 
 .contact-section h3 {
     font-size: 1.5rem;
-    color: #0FFCBE;
+    color: #14ecfc;
     text-align: center;
 }
 
@@ -176,26 +248,26 @@ h3 {
     width: 100%;
     padding: 0.8rem;
     margin: 0.5rem 0;
-    border: 1px solid #0FFCBE;
+    border: 1px solid #14ecfc;
     border-radius: 5px;
 }
 
 .contact-section button {
     width: 100%;
     margin-top: 1rem;
-    background-color: #0FFCBE;
-    color: #eef0e7;
+    background-color: #14ecfc;
+    color: #111;
 }
 
 .contact-section a {
-    color: #0FFCBE;
+    color: #14ecfc;
 }
 
 .contact-section button:hover {
-    background-color: #0FFCBE;
-    color: #f1f1f1;
+    background-color: #14ecfc;
+    color: #111;
     transform: translateY(-10px); /* Lift and scale on hover */
-    box-shadow: 0 10px 10px #78cfb7;
+    box-shadow: 0 10px 10px #5ec2c9;
 }
 
 /* Project Section */
@@ -224,7 +296,7 @@ h3 {
 
 .project-section img,
 .project-section video {
-    border: 2px solid #0FFCBE; /* Border for images and video */
+    border: 2px solid #14ecfc; /* Border for images and video */
     border-radius: 10px;
 }
 
@@ -233,22 +305,6 @@ img.img-fluid, video.img-fluid {
     max-width: 100%;
     height: auto;
 }
-
-.social-links .btn {
-    background-color: #0FFCBE;
-    border: none;
-    font-size: 1rem; /* Increase icon size */
-    margin: 0 2px;
-    color: #1F2833;
-}
-
-.social-links .btn:hover {
-    color: #106EBE;
-    transform: translateY(-10px) scale(1.05); /* Lift and scale on hover */
-    box-shadow: 0 10px 20px #0FFCBE;
-}
-
-
 
 /* Responsive Project Section */
 .project-section .row {
